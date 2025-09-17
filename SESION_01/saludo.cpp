@@ -1,15 +1,15 @@
 /****************************************************************/
-// FUNDAMENTOS DE PROGRAMACIÓN
+// FUNDAMENTOS DE PROGRAMACIï¿½N
 //
-// (C) FRANCISCO JOSÉ CORTIJO BON
-// DPTO. DE CIENCIAS DE LA COMPUTACIÓN E INTELIGENCIA ARTIFICIAL
+// (C) FRANCISCO JOSï¿½ CORTIJO BON
+// DPTO. DE CIENCIAS DE LA COMPUTACIï¿½N E INTELIGENCIA ARTIFICIAL
 // 
 /* 
 	Programa para mostrar un mensaje de saludo.
 */
 /****************************************************************/
 
-#include <iostream>   // Inclusión de los recursos de E/S
+#include <iostream>   // Inclusiï¿½n de los recursos de E/S
 using namespace std; 
 
 int main () // Programa Principal
@@ -20,4 +20,5 @@ int main () // Programa Principal
 
    return 0;
 }
+
 

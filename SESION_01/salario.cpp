@@ -1,12 +1,45 @@
 /****************************************************************/
-// FUNDAMENTOS DE PROGRAMACI覰
+// FUNDAMENTOS DE PROGRAMACI锟絅
 //
-// 
-/* 
+//
+/*
 	Programa para calcular el salario
 */
 /****************************************************************/
 
-#include <iostream>   // Inclusi髇 de los recursos de E/S
-using namespace std; 
+#include <iostream> // Inclusi锟絥 de los recursos de E/S
+using namespace std;
 
+int main() // Programa Principal
+{
+	// Declaraci贸n de variables
+	int salario_base;
+	int salario_final;
+	int incremento;
+
+	// C谩lculos
+	salario_base = 1000;
+	salario_final = salario_base;
+	incremento = 200;
+	salario_final = salario_final + incremento;
+	salario_base = 3500;
+
+	// Salida (presentaci贸n de resultados)
+	cout << endl;
+	cout << "Salario base: " << salario_base << endl;
+	cout << "Salario final: " << salario_final << endl;
+
+	return 0;
+
+	//Salario base: 3500
+	//Salario final: 1200
+
+	// 	Responda razonadamente a la siguiente pregunta: 驴El hecho de realizar la asignaci贸n salario_final = salario_base; hace que ambas variables est茅n ligadas
+	// durante todo el programa y que cualquier modificaci贸n posterior de salario_base
+	// afecte a salario_final?
+
+	// No, porque la asignacion que se le hace a salario_final del valor de salario_base es una copia del valor que tiene en ese momento,
+	// por lo que cualquier cambio posterior en salario_base no afecta a salario_final.
+
+
+}
