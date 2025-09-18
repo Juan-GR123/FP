@@ -1,8 +1,8 @@
 /***************************************************************************/
-// FUNDAMENTOS DE PROGRAMACIÓN
+// FUNDAMENTOS DE PROGRAMACIï¿½N
 //
-// (C) FRANCISCO JOSÉ CORTIJO BON
-// DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIÓN E INTELIGENCIA ARTIFICIAL
+// (C) FRANCISCO JOSï¿½ CORTIJO BON
+// DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIï¿½N E INTELIGENCIA ARTIFICIAL
 //
 /*	
    Programa que pide la intensidad de la corriente y la resistencia para 
@@ -29,7 +29,7 @@ int main()
 	cout << "Introduzca el valor de resistencia: ";
 	cin >> resistencia;
 
-	// Cálculos
+	// CÃ¡lculos
 	voltaje = intensidad * resistencia;
 
 	// Salida
