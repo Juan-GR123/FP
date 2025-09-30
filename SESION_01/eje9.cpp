@@ -28,6 +28,7 @@ int main()
    double total;
     // C�lculos
 
+    //Paso el tiempo a minutos
    tiempo1= (5.3/80) * 60;
    tiempo2 = (8.1 / 100) * 60;
    tiempo3 = (6.4/ 80) * 60;
